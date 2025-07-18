@@ -34,19 +34,19 @@ Non-Primitive DataType:
 
 const student = {
     name: "Adan",
-        age:21,
-            cgpa:3.06,
-                semester:7
-                
-                };
-                
-                console.log(student.age);
-                console.log(student["age"]);
-                console.log(typeof student.age);
-                
-                //Values of object can be changes even if it's declared as const. Yes, to change the whole object itself is not possible.
-                student["age"] = student["age"] + 1
-                console.log(student["age"]);
+    age:21,
+    cgpa:3.06,
+    semester:7
+
+};
+
+console.log(student.age);
+console.log(student["age"]);
+console.log(typeof student.age);
+
+//Values of object can be changes even if it's declared as const. Yes, to change the whole object itself is not possible.
+student["age"] = student["age"] + 1
+console.log(student["age"]);
                 
                 
                 
